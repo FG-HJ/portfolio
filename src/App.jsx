@@ -17,10 +17,10 @@ const App = () => {
       <Bot />
       <Hero />
       <About />
-      {/* <Hireme /> */}
+      <Hireme />
       <Skills />
       <Project />
-      <Education/>
+      <Education />
       <Contact />
       <Footer />
     </div>

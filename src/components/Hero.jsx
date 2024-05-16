@@ -1,11 +1,15 @@
 import React, { useRef } from "react";
 import my2 from "../assets/images/my2.jpg";
+import skype from "../assets/icon/skype-alt.svg";
+import email from "../assets/icon/envelope-alt.svg";
+import telegram from "../assets/icon/telegram-alt.svg";
+import discord from "../assets/icon/discord.svg"
 import Type from "./Type";
 
 const socialMediaLinks = [
-  "https://www.instagram.com/_aaaryaan__/",
-  "https://github.com/aryyan0701",
-  "https://www.linkedin.com/in/aryan-kadam-568083204/",
+  "justinelsen00@gmail.com",
+  "https://github.com/FG-HJ",
+  "https://t.me/bluesky19952121",
   "https://twitter.com/aaryyan_",
 ];
 
@@ -19,10 +23,10 @@ const Hero = () => {
   };
 
   const social_media = [
-    "logo-instagram",
-    "logo-github",
-    "logo-linkedin",
-    "logo-twitter",
+    email,
+    skype,
+    telegram,
+    discord,
   ];
   return (
     <section
@@ -39,7 +43,7 @@ const Hero = () => {
               Hello!
               <br />
             </span>
-            My Name is <span>Aryan Kadam</span>
+            My Name is <span>Justin Elsen</span>
           </h1>
           <h4 className="md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-gray-600">
                 <Type/>
@@ -54,7 +58,7 @@ const Hero = () => {
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-white cursor-pointer "
               >
-                <ion-icon name={icon}></ion-icon>
+                <ion-icon src={icon}></ion-icon>
               </a>
             ))}
           </div>

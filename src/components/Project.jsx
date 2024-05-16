@@ -14,15 +14,15 @@ const Project = () => {
   const projects = [
     {
       img: projectTwo,
-      name: "Netflix Clone",
-      github_link: "https://github.com/aryyan0701/Netflix_Clone",
+      name: "Blockchain",
+      // github_link: "https://github.com/aryyan0701/Netflix_Clone",
       //live_link: "https://myjobsearch.netlify.app",
     },
     {
       img: projectOne,
-      name: "Type Verse (Check your typing speed)",
-      github_link: "https://github.com/aryyan0701/type_verse",
-      live_link: "https://aryyan0701.github.io/type_verse/",
+      name: "Blockchain Casino",
+      // github_link: "https://github.com/aryyan0701/type_verse",
+      // live_link: "https://aryyan0701.github.io/type_verse/",
     },
        {
       img: projectThree,
@@ -33,21 +33,21 @@ const Project = () => {
     {
       img: projectFour,
       name: "Quizzify",
-      github_link:
-        "https://github.com/aryyan0701/Quizzify",
-      live_link: "https://quizzad.netlify.app/",
+      // github_link:
+        // "https://github.com/aryyan0701/Quizzify",
+      // live_link: "https://quizzad.netlify.app/",
     },
     {
       img: projectSix,
       name: "Bloggify",
-      github_link: "https://github.com/aryyan0701/Bloggify",
-      live_link: "https://aryyan0701.github.io/Bloggify/",
+      // github_link: "https://github.com/aryyan0701/Bloggify",
+      // live_link: "https://aryyan0701.github.io/Bloggify/",
     },
     {
       img: projectSeven,
       name: "Sandbox Clone",
-      github_link: "https://github.com/aryyan0701/sandbox_clone",
-     live_link: "https://aryyan0701.github.io/sandbox_clone/",
+    //   github_link: "https://github.com/aryyan0701/sandbox_clone",
+    //  live_link: "https://aryyan0701.github.io/sandbox_clone/",
     },
   ];
   return (

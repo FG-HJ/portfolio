@@ -1,12 +1,18 @@
 import React from "react";
-
+import skype from "../assets/icon/skype-alt.svg";
+import email from "../assets/icon/envelope-alt.svg";
+import telegram from "../assets/icon/telegram-alt.svg";
+import position from "../assets/icon/alternate-map-marker.svg"
 const Contact = () => {
   const contact_info = [
-    { logo: "mail", text: "aryankadam071@gmail.com" },
-    { logo: "call-outline", text: "+91 9328552388" },
+    { logo: email, text: "justinelsen@gmail.com" },
+    // { logo: skype, text: "justinelsen@gmail.com" },
+    // { logo: telegram, text: "justinelsen@gmail.com" },
+    // { logo:discord, text: "justinelsen@gmail.com" },
+    // { logo: "call-outline", text: "+91 9328552388" },
     {
-      logo: "location",
-      text: "Navsari-396445, Gujarat, India",
+      logo: position,
+      text: "Ghent, Belgium",
     },
   ];
   return (
@@ -35,7 +41,7 @@ const Contact = () => {
                   text-left gap-4 flex-wrap items-center"
               >
                 <div className="min-w-[3.5rem]  text-3xl min-h-[3.5rem] flex items-center justify-center text-white bg-cyan-600 rounded-full">
-                  <ion-icon name={contact.logo}></ion-icon>
+                  <ion-icon src={contact.logo}></ion-icon>
                 </div>
                 <p className="md:text-base text-sm  break-words">
                   {contact.text}
